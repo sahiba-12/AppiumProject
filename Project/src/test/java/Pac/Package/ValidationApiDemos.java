@@ -44,8 +44,8 @@ public class ValidationApiDemos {
 				Thread.sleep(1000);
 				driver.findElement(By.xpath("//android.widget.TextView[@content-desc=\"3. Holo Light Theme\"]")).click();
 				Thread.sleep(1000);
-				driver.findElement(By.id("io.appium.android.apis:id/edit")).sendKeys("pratiksha");
-				String expectedname ="pratiksha";
+				driver.findElement(By.id("io.appium.android.apis:id/edit")).sendKeys("Sahiba");
+				String expectedname ="Sahiba";
 				String actualname=driver.findElement(By.id("io.appium.android.apis:id/edit")).getText();
 
 				if(expectedname.equals(actualname))
